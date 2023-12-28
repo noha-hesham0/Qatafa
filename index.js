@@ -4,11 +4,11 @@ const B2 = require('backblaze-b2');
 const { v4: uuidv4 } = require('uuid'); 
 
 const credentials = {
-  applicationKeyId: "005302d9f60a3560000000004",
-  applicationKey: "K005G/3ZftEm1QKeUcF+LGWe+jVldxc",
+  applicationKeyId: "005b746cb9afbee0000000004",
+  applicationKey: "K005VCkDwfk6PREe+7HM9SjWAgYrnZQ",
 };
 
-const bucketName = 'qatafaProject';
+const bucketName = 'qatafaProjects';
 
 const b2 = new B2(credentials);
 
